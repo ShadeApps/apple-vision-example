@@ -4,11 +4,12 @@ iOS app with custom Swift Static Library written entirely in Swift 5.3.2 using V
 
 ## Requirements
 
-**Xcode version 12.4 (12D4e)** with **iOS 14.4 SDK** required. Minimal deplyoment target is iOS 13.0.
+**Xcode version 12.4 (12D4e)** with **iOS 14.4 SDK** required. Minimal deplyoment target however is iOS 13.0.
 
 ## Installation
 
-Clone the repo, choose development team in Xcode tab in Signing & Capabilities and complie for device. Compiling for iOS Simulator is out of scope of this project.
+Clone the repo, choose development team in Xcode under the Signing & Capabilities tab and complie for real device.
+Compiling for iOS Simulator is out of scope of this project.
 
 ## List of dependencies
 
