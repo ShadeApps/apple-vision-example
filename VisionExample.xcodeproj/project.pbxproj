@@ -8,8 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		402D298B25C8884800255083 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402D298A25C8884800255083 /* UIViewController.swift */; };
+		402D29D425C88F0E00255083 /* arm64-apple-ios.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = 402D29CC25C88F0E00255083 /* arm64-apple-ios.swiftdoc */; };
+		402D29D525C88F0E00255083 /* arm64.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = 402D29CD25C88F0E00255083 /* arm64.swiftmodule */; };
+		402D29D625C88F0E00255083 /* arm64-apple-ios.swiftsourceinfo in Resources */ = {isa = PBXBuildFile; fileRef = 402D29CF25C88F0E00255083 /* arm64-apple-ios.swiftsourceinfo */; };
+		402D29D725C88F0E00255083 /* arm64.swiftsourceinfo in Resources */ = {isa = PBXBuildFile; fileRef = 402D29D025C88F0E00255083 /* arm64.swiftsourceinfo */; };
+		402D29D825C88F0E00255083 /* arm64-apple-ios.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = 402D29D125C88F0E00255083 /* arm64-apple-ios.swiftmodule */; };
+		402D29D925C88F0E00255083 /* arm64.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = 402D29D225C88F0E00255083 /* arm64.swiftdoc */; };
+		402D29DA25C88F0E00255083 /* libVisionUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 402D29D325C88F0E00255083 /* libVisionUI.a */; };
 		40DE6C5425C875FC00850EE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DE6C5325C875FC00850EE1 /* AppDelegate.swift */; };
-		40DE6C5625C875FC00850EE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DE6C5525C875FC00850EE1 /* SceneDelegate.swift */; };
 		40DE6C5825C875FC00850EE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DE6C5725C875FC00850EE1 /* ViewController.swift */; };
 		40DE6C5B25C875FC00850EE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DE6C5925C875FC00850EE1 /* Main.storyboard */; };
 		40DE6C5D25C875FC00850EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DE6C5C25C875FC00850EE1 /* Assets.xcassets */; };
@@ -37,9 +43,15 @@
 
 /* Begin PBXFileReference section */
 		402D298A25C8884800255083 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		402D29CC25C88F0E00255083 /* arm64-apple-ios.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arm64-apple-ios.swiftdoc"; sourceTree = "<group>"; };
+		402D29CD25C88F0E00255083 /* arm64.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm64.swiftmodule; sourceTree = "<group>"; };
+		402D29CF25C88F0E00255083 /* arm64-apple-ios.swiftsourceinfo */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arm64-apple-ios.swiftsourceinfo"; sourceTree = "<group>"; };
+		402D29D025C88F0E00255083 /* arm64.swiftsourceinfo */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm64.swiftsourceinfo; sourceTree = "<group>"; };
+		402D29D125C88F0E00255083 /* arm64-apple-ios.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arm64-apple-ios.swiftmodule"; sourceTree = "<group>"; };
+		402D29D225C88F0E00255083 /* arm64.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm64.swiftdoc; sourceTree = "<group>"; };
+		402D29D325C88F0E00255083 /* libVisionUI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libVisionUI.a; sourceTree = "<group>"; };
 		40DE6C5025C875FC00850EE1 /* VisionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40DE6C5325C875FC00850EE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40DE6C5525C875FC00850EE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		40DE6C5725C875FC00850EE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40DE6C5A25C875FC00850EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40DE6C5C25C875FC00850EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402D29DA25C88F0E00255083 /* libVisionUI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,10 +99,51 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		402D29AC25C88B4200255083 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				40DE6C5925C875FC00850EE1 /* Main.storyboard */,
+				40DE6C5E25C875FC00850EE1 /* LaunchScreen.storyboard */,
+				40DE6C5C25C875FC00850EE1 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		402D29CA25C88F0E00255083 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				402D29CB25C88F0E00255083 /* VisionUI.swiftmodule */,
+				402D29D325C88F0E00255083 /* libVisionUI.a */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		402D29CB25C88F0E00255083 /* VisionUI.swiftmodule */ = {
+			isa = PBXGroup;
+			children = (
+				402D29CC25C88F0E00255083 /* arm64-apple-ios.swiftdoc */,
+				402D29CD25C88F0E00255083 /* arm64.swiftmodule */,
+				402D29CE25C88F0E00255083 /* Project */,
+				402D29D125C88F0E00255083 /* arm64-apple-ios.swiftmodule */,
+				402D29D225C88F0E00255083 /* arm64.swiftdoc */,
+			);
+			path = VisionUI.swiftmodule;
+			sourceTree = "<group>";
+		};
+		402D29CE25C88F0E00255083 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				402D29CF25C88F0E00255083 /* arm64-apple-ios.swiftsourceinfo */,
+				402D29D025C88F0E00255083 /* arm64.swiftsourceinfo */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
 		40DE6C4725C875FC00850EE1 = {
 			isa = PBXGroup;
 			children = (
 				40DE6C5225C875FC00850EE1 /* VisionExample */,
+				402D29CA25C88F0E00255083 /* External */,
 				40DE6C6925C875FD00850EE1 /* VisionExampleTests */,
 				40DE6C7425C875FD00850EE1 /* VisionExampleUITests */,
 				40DE6C5125C875FC00850EE1 /* Products */,
@@ -110,12 +164,9 @@
 			isa = PBXGroup;
 			children = (
 				40DE6C5325C875FC00850EE1 /* AppDelegate.swift */,
-				40DE6C5525C875FC00850EE1 /* SceneDelegate.swift */,
 				40DE6C5725C875FC00850EE1 /* ViewController.swift */,
 				402D298925C8883700255083 /* Extensions */,
-				40DE6C5925C875FC00850EE1 /* Main.storyboard */,
-				40DE6C5E25C875FC00850EE1 /* LaunchScreen.storyboard */,
-				40DE6C5C25C875FC00850EE1 /* Assets.xcassets */,
+				402D29AC25C88B4200255083 /* Assets */,
 				40DE6C6125C875FC00850EE1 /* Info.plist */,
 			);
 			path = VisionExample;
@@ -243,8 +294,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				40DE6C6025C875FC00850EE1 /* LaunchScreen.storyboard in Resources */,
+				402D29D925C88F0E00255083 /* arm64.swiftdoc in Resources */,
 				40DE6C5D25C875FC00850EE1 /* Assets.xcassets in Resources */,
+				402D29D625C88F0E00255083 /* arm64-apple-ios.swiftsourceinfo in Resources */,
+				402D29D525C88F0E00255083 /* arm64.swiftmodule in Resources */,
+				402D29D425C88F0E00255083 /* arm64-apple-ios.swiftdoc in Resources */,
+				402D29D825C88F0E00255083 /* arm64-apple-ios.swiftmodule in Resources */,
 				40DE6C5B25C875FC00850EE1 /* Main.storyboard in Resources */,
+				402D29D725C88F0E00255083 /* arm64.swiftsourceinfo in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +329,6 @@
 				40DE6C5825C875FC00850EE1 /* ViewController.swift in Sources */,
 				40DE6C5425C875FC00850EE1 /* AppDelegate.swift in Sources */,
 				402D298B25C8884800255083 /* UIViewController.swift in Sources */,
-				40DE6C5625C875FC00850EE1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -433,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -449,14 +505,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VisionExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/External",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sergey.VisionExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/External";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -468,14 +530,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VisionExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/External",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sergey.VisionExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/External";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

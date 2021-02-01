@@ -6,13 +6,28 @@
 //
 
 import UIKit
+import VisionUI
 
-class ViewController: UIViewController {
-    
+final class ViewController: UIViewController {
     @IBAction func startFlowClicked(_ sender: Any) {
-        
-        
+        let vc = MainVisionVC()
+        vc.delegate = self
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
     }
-    
 }
 
+extension ViewController: MainVisionVCDelegate {
+    func didFinish(withResult: Result<VisionData, Error>, sender: MainVisionVC) {
+        switch withResult {
+        case .failure(let error):
+            sender.showAlert(title: error.localizedDescription)
+        default:
+            break
+        }
+    }
+    
+    func didClickDismiss(sender: MainVisionVC) {
+        sender.dismiss(animated: true)
+    }
+}

@@ -17,7 +17,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ljP-Ds-6u1">
-                                <rect key="frame" x="172" y="433" width="70" height="30"/>
+                                <rect key="frame" x="153" y="427" width="108" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Start Flow"/>
                                 <connections>
                                     <action selector="startFlowClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8wq-rP-7AL"/>
